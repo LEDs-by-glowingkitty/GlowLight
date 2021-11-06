@@ -27,8 +27,6 @@ Want to double check if you are building it correctly? [Download the "GlowLight.
 - **3x** M3 8mm screws flat head
 - wires (ideally in red, white or black, green)
 - heat resistant tape
-- optional: **2x** additional M3 nuts
-- optional: **2x** M3 20mm screws flat head
 - optional: **4x** 22mm felt gliders
 - optional: epoxy glue or another kind of strong glue
 
@@ -50,15 +48,13 @@ Connect your ESP32 D1 Mini via a microUSB cable to your computer, open Chrome (y
 
 Cut the LED strip into 14 LEDs long stripes. Now solder wires to the beginning of each LED strip - start with a 10cm long wire for each GND, V and D pin. You can shorten them later.
 
-Optionally, you can now drill two M3 size holes on both ends of the aluminium square tube - if you plan to screw the aluminium tube to the case for a stronger connection. The hole on one side with 2.7mm distance to the end. On the other side with 1.3mm to the end. The side with the longer distance will be the beginning of the aluminium tube, where the LEDs will start.
-
 Next, lets tape the LED strips on the aluminium square tube. Make sure at the start of the LED strip there is twice as much space to the end of the aluminium tube then on the other side (so don't place the LED strip exactly in the middle). To make sure they don't fall off after a while, wrap around some heat resistant tape in between the LEDs. Do this at least on both ends and around the middle of the aluminum tube.
 
 ### **Step 4:** Connect top case & LED tube
 
 ![connect the top case with the aluminium tube](readme/connect_top_case_and_aluminium_tube.gif)
 
-Slide in the aluminium tube with the LED strips into the [top case](https://github.com/glowingkitty/GlowLight/blob/main/3D%20printed%20parts/top%20case.3mf). Optionally you can now also fix the aluminium tube to the top case with the help of an M3 nut and M3 20mm screw.
+Slide in the aluminium tube with the LED strips into the [top case](https://github.com/glowingkitty/GlowLight/blob/main/3D%20printed%20parts/top%20case.3mf).
 
 ### **Step 5:** Connect the acrylic case
 
@@ -70,7 +66,7 @@ Once that is done, place the acrylic tube on the top case - and optionally glue 
 
 ![add the bottom case](readme/add_bottom_case.gif)
 
-Next, take the [bottom case](https://github.com/glowingkitty/GlowLight/blob/main/3D%20printed%20parts/bottom%20case.3mf) and place it on the acrylic tube and aluminium tube. Make sure you insert the wires from the LED strips into the hole that's closest to each LED strip (4 holes, for 4 LED strips). Optionally you can now also fix that connection by using an M3 nut and M3 20mm screw and/or with glue between the acrylic tube and bottom case.
+Next, take the [bottom case](https://github.com/glowingkitty/GlowLight/blob/main/3D%20printed%20parts/bottom%20case.3mf) and place it on the acrylic tube and aluminium tube. Make sure you insert the wires from the LED strips into the hole that's closest to each LED strip (4 holes, for 4 LED strips). Optionally you can now also fix that connection with glue between the acrylic tube and bottom case.
 
 ### **Step 6:** Add remaining electronics
 
