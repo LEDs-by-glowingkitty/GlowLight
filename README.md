@@ -54,7 +54,7 @@ Next, lets tape the LED strips on the aluminium square tube. Make sure at the st
 
 ![connect the top case with the aluminium tube](readme/connect_top_case_and_aluminium_tube.gif)
 
-Slide in the aluminium tube with the LED strips into the [top case](https://github.com/glowingkitty/GlowLight/blob/main/3D%20printed%20parts/top%20case.3mf).
+Slide in the aluminium tube with the LED strips into the [top case](https://github.com/glowingkitty/GlowLight/blob/main/3D%20printed%20parts/top%20case.stl).
 
 ### **Step 5:** Connect the acrylic case
 
@@ -66,7 +66,7 @@ Once that is done, place the acrylic tube on the top case - and optionally glue 
 
 ![add the bottom case](readme/add_bottom_case.gif)
 
-Next, take the [bottom case](https://github.com/glowingkitty/GlowLight/blob/main/3D%20printed%20parts/bottom%20case.3mf) and place it on the acrylic tube and aluminium tube. Make sure you insert the wires from the LED strips into the hole that's closest to each LED strip (4 holes, for 4 LED strips). Optionally you can now also fix that connection with glue between the acrylic tube and bottom case.
+Next, take the [bottom case](https://github.com/glowingkitty/GlowLight/blob/main/3D%20printed%20parts/bottom%20case.stl) and place it on the acrylic tube and aluminium tube. Make sure you insert the wires from the LED strips into the hole that's closest to each LED strip (4 holes, for 4 LED strips). Optionally you can now also fix that connection with glue between the acrylic tube and bottom case.
 
 ### **Step 6:** Add remaining electronics
 
@@ -90,7 +90,7 @@ Now - let's connect the LED strips: by connecting the "D" wires of the bottom an
 
 ![close case](readme/close_case.gif)
 
-Last, add the nuts to the bottom case and now screw the [bottom cover](https://github.com/glowingkitty/GlowLight/blob/main/3D%20printed%20parts/bottom%20cover.3mf) to the bottom case. Optionally, tape four 22mm felt gliders to the bottom cover.
+Last, add the nuts to the bottom case and now screw the [bottom cover](https://github.com/glowingkitty/GlowLight/blob/main/3D%20printed%20parts/bottom%20cover.stl) to the bottom case. Optionally, tape four 22mm felt gliders to the bottom cover.
 
 ### **Step 9:** Happy glowing
 
