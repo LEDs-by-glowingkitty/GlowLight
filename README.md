@@ -18,7 +18,7 @@ Want to double check if you are building it correctly? [Download the "GlowLight.
 - **min. 260ml** of 3D printing resin (or similar amount of filament, if you use an FDM printer)
 - **1x 25cm** aluminium square tube, 10x10mm
 - **1m** WS2812B or WS2812B Eco LED strip, 60 LEDs/meter, white PCB
-- **1x** USB-C female connector JRC-B008
+- **1x** USB-C PD board ZYPDS
 - **1x** ESP32 D1 Mini
 - **1x** MAX4466 microphone
 - **3x** WAGO 221-415 connector
@@ -74,7 +74,7 @@ Next, take the [bottom case](https://github.com/glowingkitty/GlowLight/blob/main
 
 Let's focus on the remaining electronics now. First, place the WAGO 221 connectors into the bottom case. They are important to connect all the power, ground and data wires from the other components - especially the LED strips. Once you placed them, take two wires (ideally a red and black/white one). One to connect the two WAGO connectors on the bottom of the case, one for the two WAGO connectors on the right side. Make sure you first remove the insulation of the wire ends - and then insert them into the WAGO connectors.
 
-Now we solder together most of the electronics. Start with soldering a wire to the "V" of the USB-C board (ideally a red wire) and another one to "G" (ideally a white or black wire). Connect those wires to the WAGO 221 connectors. V to the WAGO connector left of the USB-C board, G to the WAGO connector above the USB-C board.
+Now we solder together most of the electronics. Start with soldering a wire to the "+" (voltage) of the USB-C board (ideally a red wire) and another one to "-" (ground, ideally a white or black wire). Connect those wires to the WAGO 221 connectors. Voltage to the WAGO connector left of the USB-C board, ground to the WAGO connector above the USB-C board.
 
 Next, solder three wires to the microphone. Ideally a red one to VCC, a white or black one to GND and a green one to OUT. To make sure the wires are the correct length, place the microphone and ESP32 on the bottom case on the  cutouts for those parts - and place the VCC and OUT wires from the microphone via the wire tunnels towards the ESP32. Once you identified the correct length (better play safe and cut them 1-2cm longer then needed), cut the wires to the correct length. Repeat the same for the GND wire - which needs to connect the microphone and WAGO 221 connector on the right side of the case.
 
@@ -90,7 +90,7 @@ Now - let's connect the LED strips: by connecting the "D" wires of the bottom an
 
 ![close case](readme/close_case.gif)
 
-Last, add the nuts to the bottom case and now screw the [bottom cover](https://github.com/glowingkitty/GlowLight/blob/main/3D%20printed%20parts/bottom%20cover.stl) to the bottom case. Optionally, tape four 22mm felt gliders to the bottom cover.
+Last, add the nuts to the bottom case and now screw the [bottom cover](https://github.com/glowingkitty/GlowLight/blob/main/3D%20printed%20parts/bottom%20cover.stl) to the bottom case. Make sure the small dot in the cover is alligned next to the dot of the case. Optionally, also tape four 22mm felt gliders to the bottom cover.
 
 ### **Step 9:** Happy glowing
 

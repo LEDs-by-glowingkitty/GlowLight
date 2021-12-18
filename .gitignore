@@ -2,5 +2,6 @@
 *_autosave
 *.pwmx
 *.mp4
+*.icloud
 .DS_Store
 GlowLightPCB
