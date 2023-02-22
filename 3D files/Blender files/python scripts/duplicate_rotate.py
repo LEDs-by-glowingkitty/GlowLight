@@ -2,7 +2,7 @@ import bpy
 import math
 
 # Step 1: duplicate the mesh object "LED light" 14 times on the z-axis with a +16.66mm distance between each duplicate
-led_light = bpy.data.objects["LED light"] # get the original LED light object
+led_light = bpy.data.objects["LED light.000"] # get the original LED light object
 led_lights = [led_light] # create a list to store the LED light objects
 for i in range(1, 15): # loop 14 times
     new_led_light = led_light.copy() # make a copy of the original LED light
@@ -16,6 +16,7 @@ for j in range(1, 4): # loop 3 times
     new_led_strip = [] # create a list to store the new LED strip
     for k in range(15): # loop 15 times
         new_led_light = led_lights[k].copy() # make a copy of the LED light at the same index in the original LED strip
+        new_led_light.data = led_light.data.copy() # make a copy of the mesh data
         angle = math.radians(j * 90) # calculate the angle of rotation in radians
         new_led_light.rotation_euler.z += angle # rotate the copy on the z-axis by the angle
         new_led_light.location.x = led_lights[k].location.x * math.cos(angle) - led_lights[k].location.y * math.sin(angle) # move the copy on the x-axis by the matrix multiplication of the original LED light location and the rotation matrix
