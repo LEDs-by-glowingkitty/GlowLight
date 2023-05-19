@@ -6,3 +6,9 @@
 *.blend1
 *.heic
 *.photoslibrary
+*-backup*
+*jlcpcb*
+*.kicad_pcb-bak*
+*_autosave*
+*-cache*
+*cnc
