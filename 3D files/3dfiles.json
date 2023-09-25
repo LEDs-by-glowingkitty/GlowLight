@@ -7,8 +7,8 @@
         "select_content": "GlowLight v1.0"
     }],
     "glowlight_v2_0": {
-        "git_link": "https://github.com/LEDs-by-glowingkitty/GlowLight/tree/d781afda02eedca1c9de1337f5ef060584a34377/3D%20files",
-        "downloadlink_base": "https://raw.githubusercontent.com/LEDs-by-glowingkitty/GlowLight/d781afda02eedca1c9de1337f5ef060584a34377/3D%20files/",
+        "git_link": "https://github.com/LEDs-by-glowingkitty/GlowLight/tree/36ccedb2167f6580fb3fce71ff47b6907ce66fe6/3D%20files",
+        "downloadlink_base": "https://raw.githubusercontent.com/LEDs-by-glowingkitty/GlowLight/36ccedb2167f6580fb3fce71ff47b6907ce66fe6/3D%20files/",
         "content": {
             "cases": [{
                 "name": "bottom case",
