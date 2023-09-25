@@ -73,8 +73,8 @@
                 "filetype": "usdz",
                 "updated": "2023-09-25",
                 "size": "6.4MB",
-                "downloadlink_file": "GlowLight.usdz",
-                "downloadlink": null
+                "downloadlink_file": null,
+                "downloadlink": "https://raw.githubusercontent.com/LEDs-by-glowingkitty/GlowLight/d781afda02eedca1c9de1337f5ef060584a34377/GlowLight.usdz"
             }]
         }
     },
