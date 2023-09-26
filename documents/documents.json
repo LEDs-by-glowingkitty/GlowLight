@@ -8,8 +8,8 @@
         "select_content": "GlowLight v1.0"
     }],
     "glowlight_v2_0": {
-        "git_link": "https://github.com/LEDs-by-glowingkitty/GlowLight/blob/e837d3a92b7fe0d286b3fc0fc07c0abffe2ea82c/documents",
-        "downloadlink_base": "https://raw.githubusercontent.com/LEDs-by-glowingkitty/GlowLight/e837d3a92b7fe0d286b3fc0fc07c0abffe2ea82c/documents/",
+        "git_link": "https://github.com/LEDs-by-glowingkitty/GlowLight/blob/b9e20646133fe5ea889452d630e038018d4172d2/documents",
+        "downloadlink_base": "https://raw.githubusercontent.com/LEDs-by-glowingkitty/GlowLight/b9e20646133fe5ea889452d630e038018d4172d2/documents/",
         "content": [{
             "name": "Quick Start Guide",
             "filetype": "pdf",
@@ -28,7 +28,19 @@
             "updated": "2023-09-25",
             "size": "2.12MB",
             "downloadlink_file": "pinout%20GlowLight%20GlowTower%20PCB%20v2.0.pdf"
+        },{
+            "name": "Main PCB schematic",
+            "filetype": "pdf",
+            "updated": "2023-09-26",
+            "size": "5.4MB",
+            "downloadlink_file": "MainPCB%20v2%20schematic.pdf"
         }, {
+            "name": "Button PCB schematic",
+            "filetype": "pdf",
+            "updated": "2023-09-26",
+            "size": "0.2MB",
+            "downloadlink_file": "Button%20PCB%20v2%20schematic.pdf"
+        },{
             "name": "Manual",
             "filetype": "pdf",
             "updated": "",
