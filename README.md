@@ -6,7 +6,7 @@ A compact desk lamp that glows smoothly from all sides. Perfect for setting a re
 
 ## Links
 
-- [Shop](https://shop.glowingkitty.com/product/glowlight)
+- [Shop](https://shop.glowingkitty.com/products/glowlight)
 - [More details](https://glowingkitty.com/glowlight)
 - [Tech specs](https://glowingkitty.com/glowlight/specs)
 - [FAQ](https://glowingkitty.com/glowlight/faq)
