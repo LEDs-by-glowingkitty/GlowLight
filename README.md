@@ -1,4 +1,4 @@
-![GlowLight](readme/header.jpg)
+![GlowLight](glowlight.jpg)
 
 ## What is this project?
 
