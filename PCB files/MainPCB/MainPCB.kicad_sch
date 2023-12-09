@@ -4776,6 +4776,11 @@
     (effects (font (size 3 3)) (justify left bottom))
     (uuid 323ddda7-2852-4722-8f63-04f79e5df49b)
   )
+  (text "Switching from one buck/boost to four buck/boost, using TPS55289\n(can output everything from 0.8V to 22V, even selectable via I2C! \nperfect for LEDs)\nWould optimize for 12V leds, but can always switch back to 5V\nwithout hardware change needed (except maybe problems with inductor?)"
+    (at 300.355 260.35 0)
+    (effects (font (size 2 2)) (justify left bottom))
+    (uuid 3b6a2e36-1076-405f-bde0-bfb74971488c)
+  )
   (text "VBUS MAX 20V" (at 225.425 150.495 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4057ff16-eee3-4fb7-9b07-ac051edb605d)
@@ -4799,6 +4804,10 @@
   (text "Pin Header" (at 417.195 285.115 0)
     (effects (font (size 3 3)) (justify left bottom))
     (uuid 5fdf050a-45c4-4d95-b8b6-05cc167fdf7d)
+  )
+  (text "!!! Redesign plan !!!" (at 300.99 238.76 0)
+    (effects (font (size 3 3)) (justify left bottom))
+    (uuid 695a233b-cc45-4d7b-ac93-b5d95a1e0c7c)
   )
   (text "Designed for VIN 4.8V to 21V, at 1A max output.\nBased on webench.ti.com."
     (at 379.73 161.925 0)
